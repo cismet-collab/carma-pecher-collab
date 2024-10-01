@@ -13,7 +13,7 @@ export default meta;
 export const KompletterModalerDialog: StoryObj = {
   render: () => {
     const version = "0.test.0";
-    const email = "starkregen@xanten.de";
+    const email = "starkregen@haltern.de";
     return (
       <TopicMapContextProvider appKey="storybook-appkey">
         <ModalApplicationMenu

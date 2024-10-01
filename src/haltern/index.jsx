@@ -39,10 +39,10 @@ const getCollabedHelpComponentConfig = ({
       hintergrundkartenText="DOP © RVR | Stadtkarte 2.0 © RVR | WebAtlasDE © BKG"
       taglineModelling={
         <div>
-          <b>Modellierung und AIS Starkregenvorsorge</b> (Version 1.0 |
-          11/2023):{" "}
-          <a target="_xanten" href="https://www.xanten.de/">
-            Stadt Xanten
+          <b>Modellierung und AIS Starkregenvorsorge</b> (Version 2.0 |
+          11/2022):{" "}
+          <a target="_xanten" href="https://www.haltern-am-see.de/">
+            Stadt Haltern am See
           </a>{" "}
           |{" "}
           <a target="_pecher" href="https://www.pecher.de/">
