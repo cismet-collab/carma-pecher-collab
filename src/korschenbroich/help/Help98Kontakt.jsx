@@ -17,7 +17,8 @@ const Component = ({ email }) => {
           <p>
             Für telefonische Auskünfte zum Umgang mit dem Auskunfts- und
             Informationssystem Starkregen (AIS) stehen Ihnen die
-            Mitarbeiterinnen und Mitarbeiter der Stadt Korschenbroich/SEK zur Verfügung.
+            Mitarbeiterinnen und Mitarbeiter der Stadt Korschenbroich/SEK zur
+            Verfügung.
           </p>
           <p>
             Weitere Informationen zum Thema „Schutz vor Starkregen“ finden Sie
@@ -40,10 +41,9 @@ const Component = ({ email }) => {
               <br />
             </div>
             <img
-              style={{ marginBottom: 10, marginLeft: 20 }}
+              style={{ marginBottom: 10, marginLeft: 20, height: "150px" }}
               target="_contacts"
               alt="Logo Auftraggeber"
-              height="150"
               src={customerLogo}
             />
           </p>
@@ -68,7 +68,7 @@ const Component = ({ email }) => {
                   <img
                     target="_contacts"
                     alt="Logo Pecher AG"
-                    height="40"
+                    style={{ height: "40px" }}
                     src={pecherLogo}
                   />
                 </td>
@@ -76,7 +76,7 @@ const Component = ({ email }) => {
                   <img
                     target="_contacts"
                     alt="Logo cismet GmbH"
-                    height="40"
+                    style={{ height: "40px" }}
                     src={cismetLogo}
                   />
                 </td>
@@ -84,7 +84,7 @@ const Component = ({ email }) => {
                   <img
                     target="_contacts"
                     alt="Logo KLAS Bremen"
-                    height="40"
+                    style={{ height: "40px" }}
                     src={klasLogo}
                   />
                 </td>
