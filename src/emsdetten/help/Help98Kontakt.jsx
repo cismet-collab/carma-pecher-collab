@@ -15,9 +15,9 @@ const Component = ({ email }) => {
       sectionContent={
         <div>
           <p>
-            Für Auskünfte zum Umgang mit dem Auskunfts- und
-            Informationssystem Starkregen (AIS) stehen Ihnen die
-            Mitarbeiterinnen und Mitarbeiter der Stadt Emsdetten zur Verfügung.
+            Für Auskünfte zum Umgang mit dem Auskunfts- und Informationssystem
+            Starkregen (AIS) stehen Ihnen die Mitarbeiterinnen und Mitarbeiter
+            der Stadt Emsdetten zur Verfügung.
           </p>
 
           <p style={{ display: "flex" }}>
@@ -34,10 +34,10 @@ const Component = ({ email }) => {
               <br />
             </div>
             <img
-              style={{ marginBottom: 0, marginLeft: 100 }}
+              style={{ marginBottom: 0, marginLeft: 100, height: "120px" }}
               target="_contacts"
               alt="Logo Auftraggeber"
-              height="120"
+              // height="120"
               src={customerLogo}
             />
           </p>
@@ -49,9 +49,7 @@ const Component = ({ email }) => {
                   <strong>Bearbeitung Starkregengefahrenkarten</strong>
                 </td>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <strong>
-                    Aufbau und Bereitstellung
-                  </strong>
+                  <strong>Aufbau und Bereitstellung</strong>
                 </td>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
                   <strong>Konzeption des AIS Starkregenvorsorge</strong>
@@ -62,7 +60,8 @@ const Component = ({ email }) => {
                   <img
                     target="_contacts"
                     alt="Logo Pecher AG"
-                    height="40"
+                    // height="40"
+                    style={{ height: "40px" }}
                     src={pecherLogo}
                   />
                 </td>
@@ -70,7 +69,8 @@ const Component = ({ email }) => {
                   <img
                     target="_contacts"
                     alt="Logo cismet GmbH"
-                    height="40"
+                    // height="40"
+                    style={{ height: "40px" }}
                     src={cismetLogo}
                   />
                 </td>
@@ -78,7 +78,8 @@ const Component = ({ email }) => {
                   <img
                     target="_contacts"
                     alt="Logo KLAS Bremen"
-                    height="40"
+                    // height="40"
+                    style={{ height: "40px" }}
                     src={klasLogo}
                   />
                 </td>

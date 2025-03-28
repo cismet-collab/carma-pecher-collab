@@ -22,15 +22,14 @@ const Component = ({ email }) => {
           </p>
           <p>
             Weitere Informationen zum Thema „Schutz vor Starkregen“ finden Sie
-            auf der Homepage des Kreises Euskirchen. {" "}
-              <a
-                target="_legal"
-                href="https://www.kreis-euskirchen.de/fileadmin/dokumente/Hochwasserportal/Kontaktinformationen_Kommunen.pdf"
-              >
-                Ansprechpartner:innen aus
-            den einzelnen Kommunen
-              </a>{" "}
-            werden ebenfalls aufgeführt.            
+            auf der Homepage des Kreises Euskirchen.{" "}
+            <a
+              target="_legal"
+              href="https://www.kreis-euskirchen.de/fileadmin/dokumente/Hochwasserportal/Kontaktinformationen_Kommunen.pdf"
+            >
+              Ansprechpartner:innen aus den einzelnen Kommunen
+            </a>{" "}
+            werden ebenfalls aufgeführt.
           </p>
 
           <p style={{ display: "flex" }}>
@@ -49,10 +48,10 @@ const Component = ({ email }) => {
               <br />
             </div>
             <img
-              style={{ marginBottom: 10, marginLeft: 20 }}
+              style={{ marginBottom: 10, marginLeft: 20, height: "140px" }}
               target="_contacts"
               alt="Logo Euskirchen"
-              height="140"
+              // height="140"
               src={euskirchenLogo}
             />
           </p>
@@ -77,7 +76,7 @@ const Component = ({ email }) => {
                   <img
                     target="_contacts"
                     alt="Logo Pecher AG"
-                    height="40"
+                    style={{ height: "40px" }}
                     src={pecherLogo}
                   />
                 </td>
@@ -85,7 +84,7 @@ const Component = ({ email }) => {
                   <img
                     target="_contacts"
                     alt="Logo cismet GmbH"
-                    height="40"
+                    style={{ height: "40px" }}
                     src={cismetLogo}
                   />
                 </td>
@@ -93,7 +92,8 @@ const Component = ({ email }) => {
                   <img
                     target="_contacts"
                     alt="Logo KLAS Bremen"
-                    height="40"
+                    // height="40"
+                    style={{ height: "40px" }}
                     src={klasLogo}
                   />
                 </td>
