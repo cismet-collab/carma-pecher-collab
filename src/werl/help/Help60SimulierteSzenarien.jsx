@@ -54,9 +54,8 @@ const Component = ({ uiState, uiStateActions }) => {
           <ul>
             <li>
               <strong>Stärke 7</strong>: außergewöhnliches Starkregenereignis,
-              Dauer 60 min, räumlich differenzierte Niederschlagssumme von 38,7 bis
-              39,5 l/m², Blockregen , SRI 7, 100-jährliche Wiederkehrzeit nach
-              KOSTRA-DWD-2020
+              Dauer 60 min, Niederschlagssumme von 38,3 l/m², Blockregen ,
+              SRI 7, 100-jährliche Wiederkehrzeit des Niederschlags nach KOSTRA-DWD-2020
             </li>
 
             <li>

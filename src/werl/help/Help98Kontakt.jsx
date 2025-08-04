@@ -3,7 +3,7 @@ import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
 import cismetLogo from "./assets/cismetSignet2k.png";
 import pecherLogo from "./assets/pecher.png";
 import klasLogo from "./assets/Signet_AIS_RZ.png";
-import customerLogo from "./assets/Logo.jpg";
+import customerLogo from "./assets/Logo_web.jpg";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 const Component = ({ email }) => {
@@ -26,15 +26,13 @@ const Component = ({ email }) => {
 
           <p style={{ display: "flex" }}>
             <div>
-              Stadt Werl
+              Wallfahrtsstadt Werl
               <br />
-              Dienstleistungsbetrieb Werl
+              Hedwig-Dransfeld-Straße 23
               <br />
-              Karthaus 2
+              59457 Werl
               <br />
-              46509 Werl
-              <br />
-              Telefon: +49 2801 / 7720
+              Telefon: +49 2922 800-6104
               <br />
               E-Mail: <a href="mailto:{email)}">{email}</a>
               <br />
@@ -90,7 +88,7 @@ const Component = ({ email }) => {
               </tr>
               <tr>
                 <td style={{ verticalAlign: "bottom" }}>
-                  Dr. Pecher AG
+                  Dr. Pecher GmbH
                   <br />
                   Klinkerweg 5<br />
                   40699 Erkrath

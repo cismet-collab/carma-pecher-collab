@@ -46,8 +46,9 @@ const Component = () => {
               gering, d. h. dass auch dann zunächst weniger Wasser versickert
               und mehr Wasser abflusswirksam wird. Insbesondere in den nicht
               befestigten Außenbereichen sind diese Variationen und
-              Einflussmöglichkeiten zu berücksichtigen. Weitere hydrologische
-              Prozesse, z. B. Interzeption, werden nicht berücksichitgt. Die
+              Einflussmöglichkeiten zu berücksichtigen. Der Einfluss der Interzeption wurde
+              für verschiedene Landnutzungen (z. B. Wald) berücksichtigt. Weitere hydrologische
+              Prozesse, z. B. Zwischenabfluss, werden nicht berücksichitgt. Die
               Verdunstung spielt bei den hier betrachteten kurzen Niederschlägen
               nur eine untergeordnete Rolle.
             </li>
@@ -63,8 +64,8 @@ const Component = () => {
             </li>
 
             <li>
-              Das Kanalnetz wurde über einen differenzierten Verlustansatz berücksichtigt und die Berücksichtigung von Kanalnetzüberstau abgebildet. 
-              Dazu wurden die Ergebnisse von Kanalnetzberechnungen ausgewertet. Zu der detaillierten Wirkung von Abflüssen innerhalb des Kanalnetzes hat der DBX gesonderte Fachberechnungen vorliegen. 
+              Das Kanalnetz wurde nicht weiter berücksichtigt. Zu der detaillierten Wirkung von
+              Abflüssen innerhalb des Kanalnetzes hat der Kommunalbetrieb gesonderte Fachberechnungen vorliegen. 
               Die dargestellten Starkregen zeichnen sich
               durch hohe Regenintensitäten oberhalb der Bemessungsgrenze des
               Kanalnetzes aus. Über das Kanalnetz kann zwar ein gewisses
@@ -86,15 +87,20 @@ const Component = () => {
 
           <p>
             <strong>
-              Die Modellannahmen, die stadtgebietsweite Niederschlagsbelastung
-              und Fehler im Geländemodell können dazu führen, dass es zu
-              Abweichungen zwischen den Simulationsergebnissen und beobachteten
-              Überflutungen infolge von Starkregen kommen kann. Niederschläge
-              der Stufe SRI 7 bzw. 11 können daher je nach Randbedingungen in
-              der Realität auch etwas geringere oder höhere Wassertiefen auf der
-              Geländeoberfläche zur Folge haben.
-            </strong>{" "}
-          </p>
+            Die Modellannahmen, die stadtgebietsweite Verteilung der Niederschläge sowie potenzielle Fehler im Geländemodell
+            können zu Abweichungen zwischen den Simulationsergebnissen und tatsächlich beobachteten Überflutungen infolge von
+            Starkregen führen. Niederschläge der Stufen SRI 7 bzw. 11 können, abhängig von den konkreten Randbedingungen, in der
+            Realität zu etwas geringeren oder auch höheren Wassertiefen auf der Geländeoberfläche führen. </strong>{" "}
+            </p>
+
+            <p>
+            Starkregenereignisse sind
+            häufig lokal begrenzt und sehr dynamisch. Die sogenannten Starkregenzellen weisen in der Regel eine geringe räumliche Ausdehnung auf.
+            Durch das Überqueren des Stadtgebiets können jedoch auch größere Bereiche betroffen sein. Dieser Prozess ist sehr variabel
+            und unterscheidet sich von Ereignis zu Ereignis. Auch die Zugrichtung der Zellen hat Einfluss auf das Überflutungsgeschehen.
+            Die Unsicherheiten die Beschaffenheit der "Starkregenzelle" wurden in der Modellierung berücksichtigt, indem eine flächendeckende
+            Überregnung des Stadtgebiets angenommen wurde.
+            </p>
 
           <p>
             Die unterschiedlichen Betroffenheiten im Stadtgebiet lassen sich

@@ -35,21 +35,8 @@ const Component = () => {
             Geländemodell (DGM1). Als Grundlage hierfür dienen flächenhafte
             Höhenmessungen, die das Land NRW turnusmäßig mit einem Laserscanner
             aus einem Flugzeug heraus durchführt (Aufnahme durch Laseraltimetrie
-            im Jahr 2014 und 2020). Für die Simulation wurde das DGM1 um die
-            Gebäude aus dem Liegenschaftskataster (01/2022) ergänzt. Der Rhein
-            führte bei der Messung am 07.02.2020 Hochwasser wodurch der Rhein an
-            sich sehr hohe Wasserstände aufwies und das Vorland / Alter Rhein
-            überschwemmt war. Infolgedessen wurde in diesem Bereich der
-            Wasserstand und nicht die Geländeoberfläche erfasst, wodurch es zu
-            Höhenabweichungen im digitalen Geländemodell gekommen ist. Daher
-            wird dieser Bereich im AIS Starkregenvorsorge Werl ausgeblendet.
-            Flüsse wie der Rhein weisen eine relativ hohe Abflussleistung auf
-            und reagieren eher auf langanhaltende und großräumige Niederschläge
-            mit Hochwasser. Überschwemmungen durch den Rhein werden in den
-            Hochwassergefahrenkarten abgebildet. Im AIS dargestellte kurze und
-            lokale Starkregenereignisse (Dauer 60 min) wirken sich hingegen
-            stärker auf kleinere Gewässer aus und führen in urbanen Räumen zu
-            Überflutungen.
+            im März 2024). Für die Simulation wurde das DGM1 um die
+            Gebäude aus dem Liegenschaftskataster (01/2025) ergänzt.
           </p>
 
           <p>
@@ -66,13 +53,15 @@ const Component = () => {
             Neubaugebiete) sind daher noch nicht im Datenbestand erfasst. Hier
             lassen sich aus dem angrenzenden Gelände dennoch wichtige Hinweise
             zur möglichen Überflutung ableiten (s. auch Schaltfläche: Fehler im
-            Geländemodell melden).
+            Geländemodell melden). Aktuelle Neubaugebiete, die sich Anfang 2025 in der Umsetzung
+            befanden, konnten bereits teilweise im Modell berücksichtigt werden. Auf Grund der Unsicherheiten
+            in der Umsetzung der Baumaßnahmen sollten die Ergebnisse in diesen Gebieten kritisch bewertet werden.     
           </p>
 
           <p>
             Grundlage für die Modellanpassungen waren die kommunal verfügbaren
             Datensätze, Ortsbegehungen im Stadtgebiet und eine Prüfung durch
-            Mitarbeiterinnen und Mitarbeiter der Stadt Werl (DBX).
+            Mitarbeiterinnen und Mitarbeiter der Stadt Werl und des Kommunalbetriebs der Stadt Werl.
           </p>
 
           <p>Welche Daten wurden berücksichtigt?</p>
@@ -80,21 +69,21 @@ const Component = () => {
           <ul>
             <li>
               Landesweite Daten / Bezirksregierung Köln: Digitales
-              Geländemodell, Digitales Lanschaftsmodell, ALKIS-Daten,
+              Geländemodell, Digitales Landschaftsmodell (DLM), ALKIS-Daten, LOD2-Daten,
               ELWAS-Daten (Datenlizenz Deutschland Zero
               (https://www.govdata.de/dl-de/zero-2-0))
             </li>
 
             <li>
-              Stadt Werl/DBX: Dokumentation Ereignis 2016, Informationen aus dem
-              Generalentwässerungsplan (GEP) zu Überstauschächten, darüber
-              hinaus erfolgte eine weitergehende Datenerfassung und
-              Modellprüfung in einer Online-Karte.
-            </li>
+              Stadt Werl/Kommunalbetrieb Werl: ALKIS-Daten, Dokumentation vergangener Starkregenereignisse,
+              Informationen aus den Zentralabwasserplänen (ZAP), Informationen zu B-Plänen,
+              detaillierte Informationen zu Fließhindernissen (Mauern) und Durchlässen, Informationen
+              zu befestigten Flächen und zur Lage von kritischen Gebäudenutzungen, aktuelle Planungen
+              im Gewässerbereich, Ergebnisse aus Einzelgutachten
+                        </li>
 
             <li>
-              Linksniederrheinische Entwässerungs-Genossenschaft:
-              Bauwerksinformationen, Einbauten, Verrohrungen
+              Wasserverband Obere Lippe: Bauwerksinformationen zu Hochwasserrückhaltebecken
             </li>
           </ul>
 

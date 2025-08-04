@@ -63,7 +63,7 @@ const Component = () => {
 
           <p>
             Die Simulationsberechnungen wurden durch das Ingenieurbüro Dr.
-            Pecher AG (Erkrath/Gelsenkirchen) im Auftrag der Stadt Werl
+            Pecher GmbH (Erkrath/Gelsenkirchen) im Auftrag der Stadt Werl
             durchgeführt.
           </p>
 
@@ -79,8 +79,8 @@ const Component = () => {
             fließt oberirdisch ab, wobei im urbanen Raum sowohl die
             Leistungsfähigkeit des Kanalnetzes als auch der Überstau des
             Kanalnetzes einen Einfluss auf die Überflutungssituation haben kann.
-            Das Abflussverhalten des Kanalnetzes wurde durch eine kombinierte
-            Betrachtung berücksichtigt. Die Eigenschaften der Geländeoberfläche
+            Das Abflussverhalten des Kanalnetzes konnte im Rahmen der durchgeführten Simulationen
+            nicht weiter berücksichtigt werden. Die Eigenschaften der Geländeoberfläche
             variieren je nach Flächennutzung. Die verschiedenen
             Oberflächeneigenschaften wurden im Modell über unterschiedliche
             Geländerauheiten und zeitlich variable Versickerungsansätze
