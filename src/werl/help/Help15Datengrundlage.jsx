@@ -119,7 +119,7 @@ const Component = () => {
               NRW. Datengrundlage:{" "}
               <strong>Digitale Orthophotos (DOP) des Landes NRW</strong>{" "}
               WMS-Dienst für farbige, digitale, georeferenzierte, lagegenaue,
-              entzerrte Luftbilder des Landes NRW. (
+              entzerrte Luftbilder des Landes NRW (
               <a
                 target="_legal"
                 href="https://www.bezreg-koeln.nrw.de/geobasis-nrw/produkte-und-dienste/luftbild-und-satellitenbildinformationen/aktuelle-luftbild-und-0"

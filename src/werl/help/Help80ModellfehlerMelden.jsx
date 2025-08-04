@@ -49,13 +49,13 @@ const Component = ({ defaultContextValues = {}, email }) => {
               oben im Kartenfenster öffnen Sie das auf Ihrem Rechner
               eingerichtete E-Mail-Programm mit dem Gerüst einer Nachricht an{" "}
               <a href={"mailto:" + _email}>{_email}</a>. Über diese
-              Funktionsadresse sprechen Sie eine Gruppe von Experten der
-              Stadtverwaltung an. Das automatisch erzeugte E-Mail-Gerüst enthält
-              einen Link, mit dem diese Experten die Starkregengefahrenkarte
-              genau in dem Zustand öffnen können, den Sie eingestellt haben.
-              Bitte ergänzen Sie Ihre E-Mail mit einer kurzen Darstellung des
-              vermuteten Fehlers. Wo wurde vermutlich ein wichtiger
-              Gewässerdurchlass o. ä. übersehen?
+              Funktionsadresse sprechen Sie eine Gruppe von Experten und 
+              Expertinnen der Stadtverwaltung an. Das automatisch erzeugte E-Mail-
+              Gerüst enthält einen Link, mit dem diese Experten udn Expertinnen die 
+              Starkregengefahrenkarte genau in dem Zustand öffnen können, den Sie 
+              eingestellt haben. Bitte ergänzen Sie Ihre E-Mail mit einer kurzen 
+              Darstellung des vermuteten Fehlers. Wo wurde vermutlich ein wichtiger
+              Gewässerdurchlass o. Ä. übersehen?
             </p>
             <p>
               In der nächsten Neuberechnung der Simulationen werden diese

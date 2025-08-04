@@ -20,7 +20,7 @@ const Component = () => {
             basieren auf einem vereinfachten Modell der tatsächlichen
             Verhältnisse, mit dem sich kritischere Bereiche jedoch gut bestimmen
             lassen. Für eine noch differenziertere Modellierung müssten höher
-            aufgelöste Geländedaten sowie detailliertere hydrologischen
+            aufgelöste Geländedaten sowie detailliertere hydrologische
             Grundlagen vorliegen und kleinräumige Strukturen wie Gartenmauern
             detailliert eingearbeitet werden.{" "}
           </p>
@@ -48,7 +48,7 @@ const Component = () => {
               befestigten Außenbereichen sind diese Variationen und
               Einflussmöglichkeiten zu berücksichtigen. Der Einfluss der Interzeption wurde
               für verschiedene Landnutzungen (z. B. Wald) berücksichtigt. Weitere hydrologische
-              Prozesse, z. B. Zwischenabfluss, werden nicht berücksichitgt. Die
+              Prozesse, z. B. Zwischenabfluss, werden nicht berücksichtigt. Die
               Verdunstung spielt bei den hier betrachteten kurzen Niederschlägen
               nur eine untergeordnete Rolle.
             </li>
@@ -98,7 +98,7 @@ const Component = () => {
             häufig lokal begrenzt und sehr dynamisch. Die sogenannten Starkregenzellen weisen in der Regel eine geringe räumliche Ausdehnung auf.
             Durch das Überqueren des Stadtgebiets können jedoch auch größere Bereiche betroffen sein. Dieser Prozess ist sehr variabel
             und unterscheidet sich von Ereignis zu Ereignis. Auch die Zugrichtung der Zellen hat Einfluss auf das Überflutungsgeschehen.
-            Die Unsicherheiten die Beschaffenheit der "Starkregenzelle" wurden in der Modellierung berücksichtigt, indem eine flächendeckende
+            Die Unsicherheiten wurden in der Modellierung berücksichtigt, indem eine flächendeckende
             Überregnung des Stadtgebiets angenommen wurde.
             </p>
 

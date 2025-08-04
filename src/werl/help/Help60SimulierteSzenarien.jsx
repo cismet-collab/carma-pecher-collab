@@ -19,8 +19,8 @@ const Component = ({ uiState, uiStateActions }) => {
             Modellregen durchgeführt. Bei diesen Simulationen erfolgt eine
             flächenhafte Beregnung des gesamten Gebiets mit statistisch
             ermittelten oder angenommenen Niederschlagsbelastungen. Die
-            verwendeten <strong>Modellregen</strong> werden durch die Dauer (in
-            Stunden, abgekürzt "h"), die in dieser Zeit fallende Regenmenge (in
+            verwendeten <strong>Modellregen</strong> werden durch die in einer 
+            bestimmten Dauer (in Stunden, abgekürzt "h") fallenden Regenmenge (in
             Liter pro Quadratmeter, abgekürzt "l/m²") definiert. Die Modellregen
             haben eine zeitliche Dauer von 60 Minuten und werden als sogenannte{" "}
             <strong>Blockregen</strong> verwendet.
