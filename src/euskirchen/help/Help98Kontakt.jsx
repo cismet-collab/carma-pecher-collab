@@ -100,7 +100,7 @@ const Component = ({ email }) => {
               </tr>
               <tr>
                 <td style={{ verticalAlign: "bottom" }}>
-                  Dr. Pecher AG
+                  Dr. Pecher GmbH
                   <br />
                   Klinkerweg 5<br />
                   40699 Erkrath

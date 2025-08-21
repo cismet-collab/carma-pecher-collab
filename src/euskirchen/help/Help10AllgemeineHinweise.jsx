@@ -35,6 +35,17 @@ const Component = () => {
           </p>
 
           <p>
+          <strong>Hinweis:</strong> Die im AIS dargestellten Simulationsergebnisse können aktualisiert und fortgeschrieben werden.
+          Beachten Sie daher bitte die in der Fußzeile aufgeführte Versionsnummer (derzeit Version 1.1 | 08/2025 ) und die Hinweise in der Rubrik {" "}
+            <a
+              className="renderAsLink"
+              onClick={() => setAppMenuActiveMenuSection("szenarien")}
+            >
+              simulierte Szenarien.
+            </a>{" "}
+          </p>
+
+          <p>
             Das Ergebnis der Simulation ist von der Dauer und Intensität des
             Regens abhängig, der für die Simulation angenommen wird. Wir bieten
             Ihnen hierzu drei unterschiedliche{" "}

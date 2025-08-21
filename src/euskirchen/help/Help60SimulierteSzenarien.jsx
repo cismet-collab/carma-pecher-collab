@@ -101,6 +101,42 @@ const Component = ({ uiState, uiStateActions }) => {
               Wiederkehrzeiten und Einteilung des SRI erforderlich.
             </li>
           </ul>
+          <p>
+          Hinweise zur Fortschreibung des AIS: Die dargestellten Simulationsergebnisse wurden im
+          <strong> August 2025 als Version 1.1 aktualisiert</strong>. Als Grundlage für die Aktualisierung sind
+          folgende Modellanpassungen erfolgt:
+          </p>
+
+          <ul>
+            <li>
+              <strong>Anpassung Höhenmodell</strong>: Im Zuge der Aktualisiserung wurden alle Hinweise, die über
+              die Funktion {" "}
+            <a
+              className="renderAsLink"
+              onClick={() => setAppMenuActiveMenuSection("ModellfehlerMelden")}
+            >
+              "Fehler im Geländemodell melden"
+            </a>
+            &nbsp;gemeldet wurden, geprüft. Sofern eine Anpassung des Höhenmodells erforderlich war, wurde diese umgesetzt. Darüberhinaus wurden
+            Modellfehler oder inzwischen erfolgte Veränderungen (z. B. Anpassung von Durchlässen, Errichtung von Mauern, Abriss von Gebäuden),
+            die durch die kreisangehörigen Kommunen gemeldet wurden, in das Höhenmodell eingearbeitet.
+            </li>
+
+            <li>
+              <strong>Anpassung der Oberflächenparameter für das Ereignis "Niederschlag 14.07.2021"</strong>: Rückmeldung zu den Simulationsergebnisse
+              für dieses Szenario haben gezeigt, dass die Versickerungseigenschaften des Bodens für Teilbereiche des Kreisgebiets überschätzt wurden. Daher wurde
+              das Infiltationsvermögen kreisweit reduziert. In Teilbereichen (z. B. Zülpich oder Weilerswist) ergeben sich hierdurch deutliche Veränderungen im
+              Überflutungsgeschehen. Bitte beachten Sie, dass diese grundsätzlichen Herausforderung für die Simulation dieses Szenario weiterhin erhalten bleiben.
+              Bitte berücksichtigen Sie daher die Hinweise unter {" "}
+            <a
+              className="renderAsLink"
+              onClick={() => setAppMenuActiveMenuSection("aussagekraft")}
+            >
+              "Aussagekraft der Simulationen"
+            </a>. 
+            </li>
+
+          </ul>
         </div>
       }
     />

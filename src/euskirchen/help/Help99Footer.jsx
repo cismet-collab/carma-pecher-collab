@@ -9,13 +9,13 @@ const Comp = ({
   hintergrundkartenText = "DOP © RVR | Stadtkarte 2.0 © RVR | WebAtlasDE © BKG",
   taglineModelling = (
     <div>
-      <b>Modellierung und AIS Starkregenvorsorge</b> (Version 1.1 | 07/2025):{" "}
+      <b>Modellierung und AIS Starkregenvorsorge</b> (Version 1.1 | 08/2025):{" "}
       <a target="_wsw" href="https://cismet.de/">
         cismet GmbH
       </a>{" "}
       |{" "}
       <a target="_pecher" href="https://www.pecher.de/">
-        Dr. Pecher AG (Gelsenkirchen/Erkrath)
+        Dr. Pecher GmbH (Gelsenkirchen/Erkrath)
       </a>
     </div>
   ),
