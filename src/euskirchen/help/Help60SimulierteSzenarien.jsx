@@ -123,7 +123,7 @@ const Component = ({ uiState, uiStateActions }) => {
             </li>
 
             <li>
-              <strong>Anpassung der Oberflächenparameter für das Ereignis "Niederschlag 14.07.2021"</strong>: Rückmeldung zu den Simulationsergebnisse
+              <strong>Anpassung der Oberflächenparameter für das Szenario "Niederschlag 14.07.2021"</strong>: Rückmeldung zu den Simulationsergebnisse
               für dieses Szenario haben gezeigt, dass die Versickerungseigenschaften des Bodens für Teilbereiche des Kreisgebiets überschätzt wurden. Daher wurde
               das Infiltationsvermögen kreisweit reduziert. In Teilbereichen (z. B. Zülpich oder Weilerswist) ergeben sich hierdurch deutliche Veränderungen im
               Überflutungsgeschehen. Bitte beachten Sie, dass diese grundsätzlichen Herausforderung für die Simulation dieses Szenario weiterhin erhalten bleiben.
