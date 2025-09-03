@@ -35,7 +35,7 @@ const Component = () => {
           </p>
 
           <p>
-          <strong>Hinweis:</strong> Die im AIS dargestellten Simulationsergebnisse können aktualisiert und fortgeschrieben werden.
+          <strong>Hinweis:</strong> Die im AIS dargestellten Simulationsergebnisse werden aktualisiert und fortgeschrieben.
           Beachten Sie daher bitte die in der Fußzeile aufgeführte Versionsnummer (derzeit Version 1.1 | 08/2025 ) und die Hinweise in der Rubrik {" "}
             <a
               className="renderAsLink"
@@ -75,7 +75,7 @@ const Component = () => {
 
           <p>
             Die Simulationsberechnungen wurden im Auftrag des Kreises Euskirchen
-            durch das Ingenieurbüro Dr. Pecher AG (Erkrath/Gelsenkirchen)
+            durch das Ingenieurbüro Dr. Pecher GmbH
             durchgeführt. Weiterhin waren alle elf Kommunen, der Erftverband und
             der Wasserverband Eifel-Rur am Projekt beteiligt. Der
             Erstellungsprozess der Starkregengefahrenkarten wurde teilweise
