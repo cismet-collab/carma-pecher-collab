@@ -26,13 +26,17 @@ const Component = ({ email }) => {
 
           <p style={{ display: "flex" }}>
             <div>
-              Wallfahrtsstadt Werl
+              Wallfahrtsstadt Werl / Kommunalbetrieb Werl
+              <br />
+              Leonie Hillebrand
+              <br />
+              Abt. Stadtentwässerung
               <br />
               Hedwig-Dransfeld-Straße 23
               <br />
               59457 Werl
               <br />
-              Telefon: +49 2922 800-6104
+              Telefon: +49 2922 800-8121
               <br />
               E-Mail: <a href="mailto:{email)}">{email}</a>
               <br />
