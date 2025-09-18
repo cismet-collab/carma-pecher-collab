@@ -4,6 +4,7 @@ import cismetLogo from "./assets/cismetSignet2k.png";
 import pecherLogo from "./assets/pecher.png";
 import klasLogo from "./assets/Signet_AIS_RZ.png";
 import customerLogo from "./assets/Logo_web.jpg";
+import customerLogo1 from "./assets/KBW_2020.jpg";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 const Component = ({ email }) => {
@@ -26,13 +27,13 @@ const Component = ({ email }) => {
 
           <p style={{ display: "flex" }}>
             <div>
-              Wallfahrtsstadt Werl / Kommunalbetrieb Werl
+              Wallfahrtsstadt Werl & Kommunalbetrieb Werl
               <br />
               Leonie Hillebrand
               <br />
               Abt. Stadtentwässerung
               <br />
-              Hedwig-Dransfeld-Straße 23
+              Hedwig-Dransfeld-Straße 23-23a
               <br />
               59457 Werl
               <br />
@@ -46,6 +47,12 @@ const Component = ({ email }) => {
               target="_contacts"
               alt="Logo Auftraggeber"
               src={customerLogo}
+            />
+            <img
+              style={{ marginTop: 40, marginLeft: 20, height: 100 }}
+              target="_contacts"
+              alt="Logo Auftraggeber"
+              src={customerLogo1}
             />
           </p>
 
