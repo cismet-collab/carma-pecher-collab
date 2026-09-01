@@ -43,7 +43,7 @@ const Component = () => {
 
           <p>
             Die Simulationsberechnungen wurden im Auftrag der Kreis- und
-            Hochschulstadt Meschede durch das Ingenieurbüro Dr. Pecher AG
+            Hochschulstadt Meschede durch das Ingenieurbüro Dr. Pecher GmbH
             (Gelsenkirchen/Erkrath) durchgeführt. Die Bemessungsgrenze des
             Kanalnetzes wird bei den hier simulierten Ereignissen überschritten.
             Der größe Anteil des Niederschlagwassers fließt oberirdisch ab,

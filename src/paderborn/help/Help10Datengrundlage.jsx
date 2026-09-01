@@ -43,7 +43,7 @@ const Component = () => {
 
           <p>
             Die Simulationsberechnungen wurden im Auftrag der Stadt Paderborn
-            durch das Ingenieurbüro Dr. Pecher AG (Gelsenkirchen/Erkrath)
+            durch das Ingenieurbüro Dr. Pecher GmbH (Gelsenkirchen/Erkrath)
             durchgeführt. Die Bemessungsgrenze des Kanalnetzes wird bei den hier
             simulierten Ereignissen überschritten. Der größe Anteil des
             Niederschlagwassers fließt oberirdisch ab, wobei im urbanen Raum

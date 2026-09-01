@@ -40,7 +40,7 @@ const Component = () => {
 
           <p>
             Die Simulationsberechnungen wurden im Auftrag der Stadt Emsdetten im Rahmen der generellen Entwässerungsplanung durch das Ingenieurbüro
-            Dr. Pecher AG (Erkrath) durchgeführt. <strong>Grundlagen der Simulationsberechnungen:</strong>
+            Dr. Pecher GmbH (Erkrath) durchgeführt. <strong>Grundlagen der Simulationsberechnungen:</strong>
           </p>
 
           <ul>

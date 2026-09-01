@@ -63,7 +63,7 @@ const Component = () => {
 
           <p>
             Die Simulationsberechnungen wurden durch das
-            Ingenieurbüro Dr. Pecher AG (Erkrath/Gelsenkirchen) im Auftrag der Stadt Korschenbroich / Städtischer Entsorgungsbetrieb SEK durchgeführt.
+            Ingenieurbüro Dr. Pecher GmbH (Erkrath/Gelsenkirchen) im Auftrag der Stadt Korschenbroich / Städtischer Entsorgungsbetrieb SEK durchgeführt.
           </p>
 
           <p>

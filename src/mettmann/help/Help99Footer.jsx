@@ -15,7 +15,7 @@ const Comp = ({
       </a>{" "}
       |{" "}
       <a target="_pecher" href="https://www.pecher.de/">
-        Dr. Pecher AG (Gelsenkirchen/Erkrath)
+        Dr. Pecher GmbH (Gelsenkirchen/Erkrath)
       </a>
     </div>
   ),

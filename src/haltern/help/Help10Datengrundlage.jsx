@@ -40,7 +40,7 @@ const Component = () => {
             verwendet. Der untere Grenzwert für die farbige Anzeige einer
             Fließgeschwindigkeit liegt bei 0,2 m/s. Die Simulationsberechnungen
             wurden im Auftrag der Stadt Haltern am See durch das Ingenieurbüro
-            Dr. Pecher AG (Gelsenkirchen/Erkrath) durchgeführt. Im Modell werden
+            Dr. Pecher GmbH (Gelsenkirchen/Erkrath) durchgeführt. Im Modell werden
             unterschiedliche Geländerauheiten und zeitlich variable
             Versickerungsansätze je nach Flächennutzung genutzt. Der Abfluss im
             Kanalnetz und durch Überstau aus dem Kanalnetz austretendes Wasser
