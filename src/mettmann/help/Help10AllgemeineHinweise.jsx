@@ -63,7 +63,7 @@ const Component = () => {
 
           <p>
             Die Simulationsberechnungen wurden im Auftrag des Kreises Mettmann
-            durch das Ingenieurbüro Dr. Pecher AG (Erkrath/Gelsenkirchen)
+            durch das Ingenieurbüro Dr. Pecher GmbH (Erkrath/Gelsenkirchen)
             durchgeführt.{" "}
             <TODOMarker>
               Beteiligte (Kommunen, Wasserverbände) und eine etwaige Förderung
