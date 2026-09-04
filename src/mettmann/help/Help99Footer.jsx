@@ -6,7 +6,7 @@ import { CustomizationContext } from "react-cismap/contexts/CustomizationContext
 
 const Comp = ({
   appName = "Starkregengefahrenkarte",
-  hintergrundkartenText = "DOP © RVR | Stadtkarte 2.0 © RVR | WebAtlasDE © BKG",
+  hintergrundkartenText = "Stadtplan © RVR | DOP © Bezirksregierung Köln",
   taglineModelling = (
     <div>
       <b>Modellierung und AIS Starkregenvorsorge</b> (Version 1.1 | 07/2025):{" "}

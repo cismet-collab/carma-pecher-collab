@@ -113,66 +113,79 @@ const Component = () => {
           </p>
           <ul>
             <li>
-              <strong>Stadtplan (grau)</strong>: Kartendienst (vektorbasiert)
-              der cismet GmbH. Datengrundlage: <strong>cismet light</strong>.
-              Wöchentlich in einem automatischen Prozess aktualisierte
-              Bereitstellung der OpenStreetMap als Vektorlayer mit der
-              OpenMapTiles-Server-Technologie. Lizenzen der Ausgangsprodukte:{" "}
+              <strong>Stadtplan</strong>: Kartendienst (WMTS)
+              des Verbandsgebiets vom RVR.
+              Datengrundlage: <strong>Stadtplanwerk Ruhrgebiet (GrauBlau / Light)</strong> Dieser Dienst enthält
+              einen Stadtplan für alle 53 Städte und Gemeinden im Ruhrgebiet.
+              Nutzungsrechtshinweise: 
               <a
                 target="_legal"
-                href="https://github.com/openmaptiles/openmaptiles/blob/master/LICENSE.md"
+                href="https://hilfe.geoportal.ruhr/spw2-dokumentation/index.html"
               >
-                Openmaptiles
-              </a>{" "}
-              und{" "}
+                 {" Stadtplanwerk Ruhrgebiet 2.0 "}
+              </a>
+               ©
+               <a
+                target="_legal"
+                href="https://www.rvr.ruhr/"
+              >
+                 {" Regionalverband Ruhr "}
+              </a> 
+               und Kooperationspartner (
+                <a
+                target="_legal"
+                href="https://www.govdata.de/dl-de/by-2-0"
+              >
+                 {"Datenlizenz Deutschland - Zero - Version 2.0"}
+              </a> 
+                ), Datengrundlagen: 
+                <a
+                target="_legal"
+                href="https://www.bezreg-koeln.nrw.de/brk_internet/geobasis/liegenschaftskataster/alkis/index.html"
+              >
+                 {" ALKIS"}
+              </a>               
+                , 
+                <a
+                target="_legal"
+                href="https://www.bezreg-koeln.nrw.de/brk_internet/geobasis/landschaftsmodelle/index.html"
+              >
+                 {" ATKIS "}
+              </a>                 
+               - Land NRW/Katasterämter (
+                <a
+                target="_legal"
+                href="https://www.govdata.de/dl-de/by-2-0"
+              >
+                 {"Datenlizenz Deutschland - Zero - Version 2.0 "}
+              </a> 
+              und © 
               <a
                 target="_legal"
-                href="https://www.opendatacommons.org/licenses/odbl/1.0/"
+                href="https://www.openstreetmap.org/copyright"
               >
-                ODbL
-              </a>{" "}
-              (OpenStreetMap contributors).
+                 {" OpenStreetMap "}
+              </a> 
+               - Mitwirkende (License: 
+                <a
+                target="_legal"
+                href="https://opendatacommons.org/licenses/odbl/"
+              >
+                 {" Open Database License"}
+              </a> 
+               ) {" "}
             </li>
             <li>
-              <strong>Luftbildkarte</strong>: (1) Kartendienst (WMS) des RVR.
+              <strong>Luftbildkarte</strong>: Kartendienst (WMS) der Bezirksregierung Köln.
               Datengrundlage:{" "}
               <strong>Digitale Orthophotos (DOP) des Landes NRW</strong>{" "}
               WMS-Dienst für farbige, digitale, georeferenzierte, lagegenaue,
-              entzerrte Luftbilder des Landes NRW. (
+              entzerrte Luftbilder des Landes NRW. Nutzungsrechtshinweise: © Geobasis NRW, Bezirksregierung Köln.
               <a
                 target="_legal"
-                href="https://www.bezreg-koeln.nrw.de/brk_internet/geobasis/luftbildinformationen/aktuell/digitale_orthophotos/index.html"
+                href="https://www.govdata.de/dl-de/zero-2-0"
               >
-                weiter Informationen
-              </a>
-              ). (2) Kartendienste (WMS) des Regionalverbandes Ruhr (RVR).
-              Datengrundlagen: <strong>Stadtkarte 2.0</strong> und{" "}
-              <strong>Kartenschrift aus der Stadtkarte 2.0</strong>. (Details s.
-              Hintergrundkarte Stadtplan).
-            </li>
-            <li>
-              <strong>DTK (bunt)</strong>: DTK Sammeldienst des Landes NRW.
-              Datengrundlage: <strong>DTK (bunt)</strong> Dieser Dienst enthält
-              alle topographischen Kartenwerke des Landes Nordrhein-Westfalen
-              sowie in den kleineren Maßstäben topographische Kartenwerke des
-              Bundes. Angefangen von einer Übersichtskarte für NRW über die
-              DTK500 bis zur DTK250 des Bundesamtes für Kartographie und
-              Geodäsie und den topographischen Karten DTK100, DTK50, DTK25,
-              DTK10 NRW von Geobasis NRW, bis hin zur ABK und ALKIS der Kommunen
-              sind alle Standardkartenwerke in einem Layer vereint. Durch die
-              voreingestellten Maßstabsbereiche wird gewährleistet, dass in
-              jedem Maßstab die ideale Karte präsentiert wird.
-              Nutzungsbedingungen: siehe{" "}
-              <a
-                target="_legal"
-                href="http://www.bezreg-koeln.nrw.de/brk_internet/geobasis/lizenzbedingungen_geobasis_nrw.pdf"
-              >
-                Nutzungsbedingungen Geobasis NRW
-              </a>
-              , Für die DTK 250, DTK 500 gelten die Nutzungsbedingungen des BKG:
-              ©{" "}
-              <a target="_legal" href="www.govdata.de/dl-de/by-2-0">
-                GeoBasis-DE / BKG(2020) dl-de/by-2-0
+                 {" Datenlizenz Deutschland - Zero - Version 2.0."}
               </a>
             </li>
           </ul>
