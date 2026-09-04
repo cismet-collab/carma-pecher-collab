@@ -26,7 +26,7 @@ const Component = ({ uiState, uiStateActions }) => {
             <strong>Blockregen</strong> verwendet.
             Das bedeutet, dass der
             Intensitätsverlauf über die gesamte Dauer des Ereignisses konstant
-            ist. Im Anschluss an das Niederschlagsereignis werden weitere 60
+            ist. Im Anschluss an das Niederschlagsereignis werden weitere 120
             Minuten Nachlaufzeit simuliert.
           </p>
 
