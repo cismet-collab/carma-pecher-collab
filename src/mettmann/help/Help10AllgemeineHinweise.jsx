@@ -65,10 +65,7 @@ const Component = () => {
             Die Simulationsberechnungen wurden im Auftrag des Kreises Mettmann
             durch das Ingenieurbüro Dr. Pecher GmbH (Erkrath/Gelsenkirchen)
             durchgeführt.{" "}
-            <TODOMarker>
-              Beteiligte (Kommunen, Wasserverbände) und eine etwaige Förderung
-              bei Pecher bzw. beim Kreis Mettmann erfragen und hier ergänzen
-            </TODOMarker>
+            Weiterhin waren alle zehn Kommunen und der Bergisch-Rheinische Wasserverband (BRW) beteiligt. Der Erstellungsprozess der Starkregengefahrenkarten wurde teilweise durch die Bezirksregierung Köln gefördert.
           </p>
 
           <p>
