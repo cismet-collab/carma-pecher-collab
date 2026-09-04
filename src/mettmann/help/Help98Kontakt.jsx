@@ -3,6 +3,7 @@ import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
 import cismetLogo from "./assets/cismetSignet2k.png";
 import pecherLogo from "./assets/pecher.png";
 import klasLogo from "./assets/Signet_AIS_RZ.png";
+import mettmannLogo from "./assets/Kreis_Mettmann.jpg";
 import TODOMarker from "./TODOMarker";
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -35,7 +36,6 @@ const Component = ({ email }) => {
             <div>
               Kreis Mettmann
               <br />
-              
               <TODOMarker>
                 Postanschrift, zuständige Organisationseinheit und
                 Telefonnummer beim Kreis Mettmann erfragen und hier eintragen
@@ -47,10 +47,13 @@ const Component = ({ email }) => {
               </TODOMarker>
               <br />
             </div>
-            <TODOMarker>
-              Logo des Kreises Mettmann von der Kreisverwaltung anfordern, unter
-              help/assets/ ablegen und hier wie bei Euskirchen einbinden
-            </TODOMarker>
+            <img
+              style={{ marginBottom: 10, marginLeft: 20, height: "140px" }}
+              target="_contacts"
+              alt="Kreis_Mettmann"
+              // height="140"
+              src={mettmannLogo}
+            />
           </p>
 
           <table width="100%" style={{ marginTop: 50 }}>
