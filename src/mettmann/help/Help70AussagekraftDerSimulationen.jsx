@@ -90,7 +90,7 @@ const Component = () => {
               und Fehler im Geländemodell können dazu führen, dass es zu
               Abweichungen zwischen den Simulationsergebnissen und beobachteten
               Überflutungen infolge von Starkregen kommen kann. Niederschläge
-              der Stufe SRI 7 bzw. 9/10 können daher je nach Randbedingungen in
+              der Stufe SRI 7 bzw. 11 können daher je nach Randbedingungen in
               der Realität auch geringere oder höhere Wassertiefen auf der
               Geländeoberfläche zur Folge haben.
             </strong>{" "}
