@@ -28,7 +28,7 @@ const Component = () => {
             Kreisgebiet, d. h. für alle zehn Kommunen des Kreises Mettmann,
             dar, die im Verlauf von zwei simulierten Starkregenszenarien
             berechnet wurden. Bei den Ergebnissen handelt es sich um eine
-            modelltechnische Untersuchung des Kreisgebiets mit dem Ziel die
+            modelltechnische Untersuchung des Kreisgebiets mit dem Ziel, die
             Realität möglichst gut abzubilden. Bei der Betrachtung und
             Interpretation der Ergebnisse sind die Modellgrundlagen und
             -annahmen zu berücksichtigen. Hinweise zur Aussagekraft der
@@ -65,18 +65,20 @@ const Component = () => {
             Die Simulationsberechnungen wurden im Auftrag des Kreises Mettmann
             durch das Ingenieurbüro Dr. Pecher GmbH (Erkrath/Gelsenkirchen)
             durchgeführt.{" "}
-            Weiterhin waren alle zehn Kommunen und der Bergisch-Rheinische Wasserverband (BRW) beteiligt. Der Erstellungsprozess der Starkregengefahrenkarten wurde teilweise durch die Bezirksregierung Köln gefördert.
+            Weiterhin waren alle zehn Kommunen und der Bergisch-Rheinische Wasserverband (BRW) 
+            beteiligt. Der Erstellungsprozess der Starkregengefahrenkarten wurde teilweise 
+            von der Bezirksregierung Köln gefördert.
           </p>
 
           <p>
             Das Auskunfts- und Informationssystem (AIS) Starkregenvorsorge ist
-            im Rahmen des DBU-Projektes KLAS in Bremen entwickelt und seitdem
-            ergänzt worden.
+            im Rahmen des DBU-Projektes KLAS in Bremen entwickelt und seitdem kontinuierlich 
+            weiterentwickelt und ergänzt worden.
           </p>
 
           <p>
             Die Bemessungsgrenze des Kanalnetzes wird bei den hier simulierten
-            Ereignissen überschritten. Der größte Anteil des Niederschlagwassers
+            Ereignissen überschritten. Der größte Anteil des Niederschlagswassers
             fließt oberirdisch ab, wobei im urbanen Raum sowohl die
             Leistungsfähigkeit des Kanalnetzes als auch der Überstau des
             Kanalnetzes einen Einfluss auf die Überflutungssituation haben kann.

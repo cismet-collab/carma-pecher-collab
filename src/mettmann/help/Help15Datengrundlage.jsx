@@ -19,7 +19,7 @@ const Component = () => {
         <div>
           <p>
             Die Modellgrundlagen und -annahmen beeinflussen die Ergebnisse
-            maßgeblich. Die hierausresultierende{" "}
+            maßgeblich. Die hieraus resultierende{" "}
             <a
               className="renderAsLink"
               onClick={() => setAppMenuActiveMenuSection("aussagekraft")}
@@ -80,28 +80,27 @@ const Component = () => {
             <li>
               Landesweite Daten / Bezirksregierung Köln: Digitales
               Geländemodell (DGM1), Digitales Landschaftsmodell (DLM), ALKIS-Daten,
-              ELWAS-Daten, Bodenkarte BK50 (Datenlizenz Deutschland Zero
+              ELWAS-Daten sowie Bodenkarte BK50 (Datenlizenz Deutschland Zero
               (
               <a
                 target="_legal"
                 href="https://www.govdata.de/dl-de/zero-2-0"
               >
                 https://www.govdata.de/dl-de/zero-2-0
-              </a>))
+              </a>)).
             </li>
 
             <li>
-              Kreis Mettmann: Auszüge aus dem Liegenschaftskataster (Flächennutzungs- und Gebäudedaten), Informationen zu Brücken und Mauern{" "}
+              Kreis Mettmann: Flächennutzungs- und Gebäudedaten, Durchlass- und Verrohrungsdaten, Bauwerksinformationen sowie Angaben zu Brücken und Mauern.{" "}
             </li>
 
             <li>
-              Bergisch-Rheinischer Wasserverband: Flächennutzungs- und Gebäudedaten, Durchlass - und Verrohrungsdaten, Bauwerksinformationen, Angaben zu Brücken und Mauern
+              Bergisch-Rheinischer Wasserverband: Flächennutzungs- und Gebäudedaten, Durchlass- und Verrohrungsdaten, Bauwerksinformationen, Angaben zu Brücken und Mauern
             </li>
 
-            <li>Kommunen: Unterschiedliche Datensätzen zur Siedlungsentwässerung (Bauwerke und Kanalbestand), Durchlass- und Verrohrungsdaten,
-                Informationen zu vergangenen Schadensereignissen und umgesetzten Maßnahmen, Lage und Informationen zu (geplanten / laufenden) Bauvorhaben, Gebäudedaten, Mauern. Die Daten wurden je nach Verfügbarkeit in den Kommunen
-                zur Modellbearbeitung zur Verfügung gestellt. Darüber hinaus erfolgte eine weitergehende Datenerfassung und Modellprüfung in einer Online-Karte.
-                
+            <li>Kommunen: Unterschiedliche Datensätze zur Siedlungsentwässerung (Bauwerke und Kanalbestand), Durchlass- und Verrohrungsdaten, Informationen zu vergangenen 
+              Schadensereignissen und umgesetzten Maßnahmen, Lage und Informationen zu geplanten bzw. laufenden Bauvorhaben, Gebäudedaten sowie Mauern. Die Daten wurden je 
+              nach Verfügbarkeit von den Kommunen zur Modellbearbeitung bereitgestellt. Darüber hinaus erfolgte eine weitergehende Datenerfassung und Modellprüfung über eine Online-Karte.
             </li>
 
             </ul>
@@ -115,7 +114,7 @@ const Component = () => {
             <li>
               <strong>Stadtplan</strong>: Kartendienst (WMTS)
               des Verbandsgebiets vom RVR.
-              Datengrundlage: <strong>Stadtplanwerk Ruhrgebiet (GrauBlau / Light)</strong> Dieser Dienst enthält
+              Datengrundlage: <strong>Stadtplanwerk Ruhrgebiet (GrauBlau / Light). </strong> Dieser Dienst enthält
               einen Stadtplan für alle 53 Städte und Gemeinden im Ruhrgebiet.
               Nutzungsrechtshinweise: 
               <a
@@ -157,9 +156,9 @@ const Component = () => {
                 target="_legal"
                 href="https://www.govdata.de/dl-de/by-2-0"
               >
-                 {"Datenlizenz Deutschland - Zero - Version 2.0 "}
+                 {"Datenlizenz Deutschland - Zero - Version 2.0"}
               </a> 
-              und © 
+              ) und © 
               <a
                 target="_legal"
                 href="https://www.openstreetmap.org/copyright"
@@ -178,7 +177,7 @@ const Component = () => {
             <li>
               <strong>Luftbildkarte</strong>: Kartendienst (WMS) der Bezirksregierung Köln.
               Datengrundlage:{" "}
-              <strong>Digitale Orthophotos (DOP) des Landes NRW</strong>{" "}
+              <strong>Digitale Orthophotos (DOP) des Landes NRW.</strong>{" "}
               WMS-Dienst für farbige, digitale, georeferenzierte, lagegenaue,
               entzerrte Luftbilder des Landes NRW. Nutzungsrechtshinweise: © Geobasis NRW, Bezirksregierung Köln.
               <a
