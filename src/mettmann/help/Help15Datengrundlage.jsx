@@ -38,8 +38,7 @@ const Component = () => {
             Laserscanner aus einem Flugzeug heraus durchführt (Aufnahme durch Laseraltimetrie in den Jahren 2019, 2020 und 2022).{" "}
      
             Für die Simulation wurde das DGM1 um die Gebäude aus dem
-            Liegenschaftskataster des Kreises Mettmann{" "}
-            <TODOMarker>Stand des Liegenschaftskatasters ergänzen</TODOMarker>{" "}
+            Liegenschaftskataster des Kreises Mettmann (Stand 01/2025){" "}
             ergänzt. Außerhalb des Kreisgebietes wurden
             Daten des Bundesamts für Kartographie und Geodäsie verwendet
             (Bundesamt für Kartographie und Geodäsie, <a
