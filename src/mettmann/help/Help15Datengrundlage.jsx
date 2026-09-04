@@ -99,14 +99,11 @@ const Component = () => {
             </li>
 
             <li>
-              <TODOMarker>
-                Beteiligte Wasserverbände für den Kreis Mettmann klären (bei
-                Euskirchen: Erftverband und Wasserverband Eifel-Rur)
-              </TODOMarker>
+              Bergisch-Rheinischer Wasserverband: Flächennutzungs- und Gebäudedaten, Durchlass - und Verrohrungsdaten, Bauwerksinformationen, Mauern
             </li>
 
             <li>Kommunen: Unterschiedliche Datensätzen zur Siedlungsentwässerung (Bauwerke und Kanalbestand), Lage von Verrohrungen und Durchlässen,
-                bisherigen Schadensereignissen und umgesetzten Maßnahmen. Die Daten wurden je nach Verfügbarkeit in den Kommunen
+                bisherigen Schadensereignissen und umgesetzten Maßnahmen, Lage und Informationen zu Bauvorhaben, Gebäudedaten, Mauern. Die Daten wurden je nach Verfügbarkeit in den Kommunen
                 zur Modellbearbeitung zur Verfügung gestellt. Darüber hinaus erfolgte eine weitergehende Datenerfassung und Modellprüfung in einer Online-Karte.
                 
             </li>
