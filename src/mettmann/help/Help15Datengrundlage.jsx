@@ -35,13 +35,9 @@ const Component = () => {
             Auflösung von 1x1 Meter aufgebaut. Wesentliche Modellgrundlage ist
             das Digitale Geländemodell (DGM1). Als Grundlage hierfür dienen
             flächenhafte Höhenmessungen, die das Land NRW turnusmäßig mit einem
-            Laserscanner aus einem Flugzeug heraus durchführt (Aufnahme durch
-            Laseraltimetrie{" "}
-            <TODOMarker>
-              Befliegungsjahre des DGM1 für den Kreis Mettmann bei Pecher
-              erfragen
-            </TODOMarker>
-            ). Für die Simulation wurde das DGM1 um die Gebäude aus dem
+            Laserscanner aus einem Flugzeug heraus durchführt (Aufnahme durch Laseraltimetrie in den Jahren 2019, 2020 und 2022).{" "}
+     
+            Für die Simulation wurde das DGM1 um die Gebäude aus dem
             Liegenschaftskataster des Kreises Mettmann{" "}
             <TODOMarker>Stand des Liegenschaftskatasters ergänzen</TODOMarker>{" "}
             ergänzt. Außerhalb des Kreisgebietes wurden
