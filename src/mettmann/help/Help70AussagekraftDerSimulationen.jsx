@@ -64,7 +64,7 @@ const Component = () => {
 
             <li>
               Das Kanalnetz wurde vereinfacht über einen Verlustansatz
-              berücksichtigt. Zu detaillierten Wirkungen von Abflüssen innerhalb
+              berücksichtigt. Für einige Kommunen konnten zusätzlich bekannte Überstauschächte in die Modellierung integriert werden. Zu detaillierten Wirkungen von Abflüssen innerhalb
               des Kanalnetzes liegen in den Kommunen ggf. gesonderte
               Fachberechnungen vor. Die dargestellten Starkregen zeichnen sich
               durch hohe Regenintensitäten oberhalb der Bemessungsgrenze des
