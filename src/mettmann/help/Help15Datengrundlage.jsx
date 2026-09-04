@@ -79,8 +79,8 @@ const Component = () => {
           <ul>
             <li>
               Landesweite Daten / Bezirksregierung Köln: Digitales
-              Geländemodell (DGM1), Digitales Landschaftsmodell, ALKIS-Daten,
-              ELWAS-Daten (Datenlizenz Deutschland Zero
+              Geländemodell (DGM1), Digitales Landschaftsmodell (DLM), ALKIS-Daten,
+              ELWAS-Daten, Bodenkarte BK50 (Datenlizenz Deutschland Zero
               (
               <a
                 target="_legal"
@@ -91,19 +91,15 @@ const Component = () => {
             </li>
 
             <li>
-              Kreis Mettmann: Auszüge Liegenschaftskataster, Flächennutzung{" "}
-              <TODOMarker>
-                Von Pecher bestätigen lassen, welche Daten der Kreis Mettmann
-                beigesteuert hat
-              </TODOMarker>
+              Kreis Mettmann: Auszüge aus dem Liegenschaftskataster (Flächennutzungs- und Gebäudedaten), Informationen zu Brücken und Mauern{" "}
             </li>
 
             <li>
-              Bergisch-Rheinischer Wasserverband: Flächennutzungs- und Gebäudedaten, Durchlass - und Verrohrungsdaten, Bauwerksinformationen, Mauern
+              Bergisch-Rheinischer Wasserverband: Flächennutzungs- und Gebäudedaten, Durchlass - und Verrohrungsdaten, Bauwerksinformationen, Angaben zu Brücken und Mauern
             </li>
 
-            <li>Kommunen: Unterschiedliche Datensätzen zur Siedlungsentwässerung (Bauwerke und Kanalbestand), Lage von Verrohrungen und Durchlässen,
-                bisherigen Schadensereignissen und umgesetzten Maßnahmen, Lage und Informationen zu Bauvorhaben, Gebäudedaten, Mauern. Die Daten wurden je nach Verfügbarkeit in den Kommunen
+            <li>Kommunen: Unterschiedliche Datensätzen zur Siedlungsentwässerung (Bauwerke und Kanalbestand), Durchlass- und Verrohrungsdaten,
+                Informationen zu vergangenen Schadensereignissen und umgesetzten Maßnahmen, Lage und Informationen zu (geplanten / laufenden) Bauvorhaben, Gebäudedaten, Mauern. Die Daten wurden je nach Verfügbarkeit in den Kommunen
                 zur Modellbearbeitung zur Verfügung gestellt. Darüber hinaus erfolgte eine weitergehende Datenerfassung und Modellprüfung in einer Online-Karte.
                 
             </li>
