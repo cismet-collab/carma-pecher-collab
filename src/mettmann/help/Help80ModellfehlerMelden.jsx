@@ -51,11 +51,6 @@ const Component = ({ defaultContextValues = {}, email }) => {
             <a href="mailto:starkregen@kreis-mettmann.de">
               starkregen@kreis-mettmann.de
             </a>{" "}
-            <TODOMarker>
-              Funktionsadresse ist nicht bestätigt, sondern von Euskirchen
-              übernommen. Beim Kreis Mettmann erfragen (laut Pecher noch in
-              Abstimmung)
-            </TODOMarker>
             . Über diese Funktionsadresse sprechen Sie eine Gruppe von
             Experten:innen der Kreisverwaltung an. Das automatisch erzeugte
             E-Mail-Gerüst enthält einen Link, mit dem diese Experten:innen die

@@ -91,7 +91,7 @@ const Component = () => {
               Abweichungen zwischen den Simulationsergebnissen und beobachteten
               Überflutungen infolge von Starkregen kommen kann. Niederschläge
               der Stufe SRI 7 bzw. 11 können daher je nach Randbedingungen in
-              der Realität auch geringere oder höhere Wassertiefen auf der
+              der Realität auch geringere oder höhere maximale Wassertiefen auf der
               Geländeoberfläche zur Folge haben.
             </strong>{" "}
             Die unterschiedlichen Betroffenheiten im Stadt- bzw. Kreisgebiet lassen sich
@@ -111,7 +111,7 @@ const Component = () => {
             vermutete{" "}
             <a
               className="renderAsLink"
-              onClick={() => setAppMenuActiveMenuSection("ModellfehlerMelden")}
+              onClick={() => setAppMenuActiveMenuSection("Help80ModellfehlerMelden")}
             >
               Fehler im Geländemodell melden
             </a>

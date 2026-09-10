@@ -22,7 +22,7 @@ const Component = () => {
             align="right"
           />
           <p>
-            Die Starkregengefahrenkarte im "AIS Starkregenvorsorge Kreis
+            Die kreisweite Starkregengefahrenkarte im "AIS Starkregenvorsorge Kreis
             Mettmann" stellt in zwei umschaltbaren Kartenansichten maximale
             Wassertiefen bzw. maximale Fließgeschwindigkeiten im gesamten
             Kreisgebiet, d. h. für alle zehn Kommunen des Kreises Mettmann,
@@ -52,12 +52,12 @@ const Component = () => {
           <p>
             Der Farbverlauf für die <strong>maximalen Wassertiefen</strong> nutzt die
             Eckwerte 20 cm (hellblau), 40 cm (blau), 75 cm (dunkelblau) und{" "}
-            {">"} 100 cm (violett). Wassertiefen unter 5 cm werden nicht mehr farbig ausgeprägt
+            {">"} 100 cm (violett). Maximale Wassertiefen unter 10 cm werden nicht mehr farbig ausgeprägt
             (transparente Darstellung). Zur Visualisierung der{" "}
             <strong>maximalen Fließgeschwindigkeiten</strong>, angegeben in Meter pro
             Sekunde (m/s), werden die Eckwerte 0,5 m/s (gelb), 1,0 m/s (orange),
             2,0 m/s (hellrot) und 4,0 m/s (dunkelrot) verwendet. Der untere
-            Grenzwert für die farbige Anzeige einer Fließgeschwindigkeit liegt
+            Grenzwert für die farbige Anzeige einer maximalen Fließgeschwindigkeit liegt
             bei 0,2 m/s.
           </p>
 
@@ -66,7 +66,7 @@ const Component = () => {
             durch das Ingenieurbüro Dr. Pecher GmbH (Erkrath/Gelsenkirchen)
             durchgeführt.{" "}
             Weiterhin waren alle zehn Kommunen und der Bergisch-Rheinische Wasserverband (BRW) 
-            beteiligt. Der Erstellungsprozess der Starkregengefahrenkarten wurde teilweise 
+            beteiligt. Der Erstellungsprozess der kreisweiten Starkregengefahrenkarten wurde teilweise 
             von der Bezirksregierung Köln gefördert.
           </p>
 
@@ -91,7 +91,7 @@ const Component = () => {
             Durchlässe wurden aufgrund ihrer Bedeutung für die Ableitungs- und
             Speicherwirkung von Oberflächenwasser als Elemente in das Modell
             aufgenommen. Je nach Regen und Randbedingungen in der Realität
-            können in Teilgebieten die Wassertiefen auf dem Gelände höher oder
+            können in Teilgebieten die maximalen Wassertiefen auf dem Gelände höher oder
             geringer ausfallen. Um diese Variationen zu verstehen und besser
             einschätzen zu können, sind die unterschiedlichen Szenarien
             dargestellt. Weitere Informationen sind in dem Reiter{" "}

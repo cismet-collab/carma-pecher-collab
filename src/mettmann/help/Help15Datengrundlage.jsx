@@ -62,16 +62,21 @@ const Component = () => {
             neue Gebäude, die nach dem Modellaufbau fertiggestellt wurden (z. B.
             Neubaugebiete) sind daher noch nicht im Datenbestand erfasst. Hier
             lassen sich aus dem angrenzenden Gelände dennoch wichtige Hinweise
-            zur möglichen Überflutung ableiten (s. auch Schaltfläche: Fehler im
-            Geländemodell melden).
+            zur möglichen Überflutung ableiten (s. auch Schaltfläche: 
+              {" "}
+            <a
+              className="renderAsLink"
+              onClick={() => setAppMenuActiveMenuSection("ModellfehlerMelden")}
+            >
+              Fehler im Geländemodell melden
+            </a>
+            ).
           </p>
 
           <p>
             Grundlage für die Modellanpassungen waren die kommunal verfügbaren
-            Datensätze, Ortsbegehungen im Kreisgebiet und eine Prüfung durch
-            kommunale Vertreter:innen. Auf Grundlage von Testrechnungen wurde
-            das Modell anschließend gemeinsam mit Vertreter:innen aus den
-            Kommunen geprüft und angepasst.
+            Datensätze, Ortsbegehungen im Kreisgebiet und eine Prüfung auf Grundlage einer Testrechnung durch
+            kommunale Vertreter:innen.
           </p>
 
           <p>Welche Daten wurden berücksichtigt?</p>
