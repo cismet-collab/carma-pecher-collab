@@ -23,28 +23,29 @@ const Component = ({ email }) => {
             Verfügung.
           </p>
           <p>
-            Weitere Informationen zum Thema „Schutz vor Starkregen“ finden Sie
-            auf der Homepage des Kreises Mettmann.{" "}
-            <TODOMarker>
-              Falls der Kreis Mettmann eine Übersicht der Ansprechpartner:innen
-              aus den Kommunen veröffentlicht, hier verlinken (Euskirchen hat
-              dafür ein PDF im Hochwasserportal)
-            </TODOMarker>
+          <a
+                target="_legal"
+                href="https://www.kreis-mettmann.de/Quickmenu/Starkregen-und-Hochwasservorsorge.php?object=tx,3718.12310.1"
+              >
+                 {"Weitere Informationen "}
+              </a>                      
+            zum Thema „Schutz vor Starkregen“ finden Sie
+            auf der Homepage des Kreises Mettmann.{" "}           
           </p>
 
           <p style={{ display: "flex" }}>
             <div>
               Kreis Mettmann
               <br />
-              <TODOMarker>
-                Postanschrift, zuständige Organisationseinheit und
-                Telefonnummer beim Kreis Mettmann erfragen und hier eintragen
-              </TODOMarker>
+            Die Landrätin
+              <br />
+            71 - Stabsstelle Klimaschutz
+              <br />
+            Düsseldorfer Str. 26
+              <br />
+            40822 Mettmann
               <br />
               E-Mail: <a href="mailto:{email)}">{email}</a>{" "}
-              <TODOMarker>
-                Adresse ist nicht bestätigt, sondern von Euskirchen übernommen
-              </TODOMarker>
               <br />
             </div>
             <img

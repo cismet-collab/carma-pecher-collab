@@ -50,11 +50,11 @@ const Component = () => {
           </p>
 
           <p>
-            Der Farbverlauf für die <strong>Wassertiefen</strong> nutzt die
+            Der Farbverlauf für die <strong>maximalen Wassertiefen</strong> nutzt die
             Eckwerte 20 cm (hellblau), 40 cm (blau), 75 cm (dunkelblau) und{" "}
             {">"} 100 cm (violett). Wassertiefen unter 5 cm werden nicht mehr farbig ausgeprägt
             (transparente Darstellung). Zur Visualisierung der{" "}
-            <strong>Fließgeschwindigkeiten</strong>, angegeben in Meter pro
+            <strong>maximalen Fließgeschwindigkeiten</strong>, angegeben in Meter pro
             Sekunde (m/s), werden die Eckwerte 0,5 m/s (gelb), 1,0 m/s (orange),
             2,0 m/s (hellrot) und 4,0 m/s (dunkelrot) verwendet. Der untere
             Grenzwert für die farbige Anzeige einer Fließgeschwindigkeit liegt
