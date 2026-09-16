@@ -66,8 +66,7 @@ const Component = () => {
             durch das Ingenieurbüro Dr. Pecher GmbH (Erkrath/Gelsenkirchen)
             durchgeführt.{" "}
             Weiterhin waren alle zehn Kommunen und der Bergisch-Rheinische Wasserverband (BRW) 
-            beteiligt. Der Erstellungsprozess der kreisweiten Starkregengefahrenkarten wurde teilweise 
-            von der Bezirksregierung Köln gefördert.
+            beteiligt.
           </p>
 
           <p>
