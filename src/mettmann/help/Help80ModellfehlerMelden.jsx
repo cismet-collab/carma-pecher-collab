@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
 import Icon from "react-cismap/commons/Icon";
 import { CustomizationContext } from "react-cismap/contexts/CustomizationContextProvider";
-import TODOMarker from "./TODOMarker";
 
 const Component = ({ defaultContextValues = {}, email }) => {
   const customizations =

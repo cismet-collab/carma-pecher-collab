@@ -4,7 +4,6 @@ import cismetLogo from "./assets/cismetSignet2k.png";
 import pecherLogo from "./assets/pecher.png";
 import klasLogo from "./assets/Signet_AIS_RZ.png";
 import mettmannLogo from "./assets/Kreis_Mettmann.jpg";
-import TODOMarker from "./TODOMarker";
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 

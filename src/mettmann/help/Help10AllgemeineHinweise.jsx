@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { UIDispatchContext } from "react-cismap/contexts/UIContextProvider";
 import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
 import aislogo from "./assets/Signet_AIS_RZ.png";
-import TODOMarker from "./TODOMarker";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 const Component = () => {

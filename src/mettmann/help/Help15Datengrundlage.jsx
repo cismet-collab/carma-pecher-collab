@@ -3,7 +3,6 @@ import { UIDispatchContext } from "react-cismap/contexts/UIContextProvider";
 import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
 import LicenseLBK from "react-cismap/topicmaps/wuppertal/LicenseLuftbildkarte";
 import LicenseStadtplanTagNacht from "react-cismap/topicmaps/wuppertal/LicenseStadtplanTagNacht";
-import TODOMarker from "./TODOMarker";
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
