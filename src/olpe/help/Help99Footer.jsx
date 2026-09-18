@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { UIDispatchContext } from "react-cismap/contexts/UIContextProvider";
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { version as reactCismapVersion } from "react-cismap/meta";
 import { CustomizationContext } from "react-cismap/contexts/CustomizationContextProvider";
 
 const Comp = ({
