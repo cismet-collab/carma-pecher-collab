@@ -48,11 +48,11 @@ const Component = () => {
             .
           </p>
           <p>
-          Unter <b>Karte</b> können Sie aus drei verschiedenen Hintergrundkarten auswählen: aus einem Stadtplan (grau)
-            auf Basis der OpenStreetMap, einer Luftbildkarte und der digitalen topographischen Karte. Ein Stadtplan eignet
-            sich gut zur Orientierung anhand von Straßen. Die Luftbildkarte stellt eine anschauliche Grundlage dar, weshalb sie sich
-            vor allem für die Darstellung räumlicher Zusammenhänge und Nutzungen eignet. Die Darstellung der topographischen
-            Karte ermöglicht zudem eine Betrachtung der Flurstücke. Da die Hintergrundkartendienste immer wieder aktualisiert werden,
+          Unter <b>Karte</b> können Sie aus drei verschiedenen Hintergrundkarten auswählen: Aus einem Stadtplan in den Darstellungsvarianten GrauBlau und Light und einem Luftbild. 
+          Die Stadtplankarte ermöglicht eine schnelle Orientierung anhand von Straßen, Gebäuden und Ortslagen. 
+          Sie basiert auf dem Stadtplanwerk Ruhrgebiet, das in den beiden Darstellungsvarianten GrauBlau und Light zur Verfügung steht, und wird über einen Kartendienst (WMTS) des Regionalverbands Ruhr (RVR) bereitgestellt.
+          Die Luftbildkarte stellt eine anschauliche Grundlage dar, weshalb sie sich
+            vor allem für die Darstellung räumlicher Zusammenhänge und Nutzungen eignet. Da die Hintergrundkartendienste immer wieder aktualisiert werden,
             kann es in Einzelfällen zu geringen Abweichungen zu der Datengrundlage des Simulationsmodells kommen, bis dieses ebenfalls
             mit den neuen Gebäuden/Objekten fortgeschrieben wird. Näheres zu den Geodaten, die
             diesen Karten zu Grunde liegen, finden Sie ebenfalls unter{" "}
