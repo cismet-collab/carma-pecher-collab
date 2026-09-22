@@ -48,10 +48,11 @@ const Component = () => {
             .
           </p>
           <p>
-          Unter <b>Karte</b> können Sie aus drei verschiedenen Hintergrundkarten auswählen: Aus einem Stadtplan in den Darstellungsvarianten GrauBlau und Light und einem Luftbild. 
-          Die Stadtplankarte ermöglicht eine schnelle Orientierung anhand von Straßen, Gebäuden und Ortslagen. 
-          Sie basiert auf dem Stadtplanwerk Ruhrgebiet, das in den beiden Darstellungsvarianten GrauBlau und Light zur Verfügung steht, und wird über einen Kartendienst (WMTS) des Regionalverbands Ruhr (RVR) bereitgestellt.
-          Die Luftbildkarte stellt eine anschauliche Grundlage dar, weshalb sie sich
+          Unter <b>Karte</b> können Sie aus drei verschiedenen Hintergrundkarten auswählen: Aus einem Stadtplan bunt, Stadtplan grau und einer Luftbildkarte. 
+          Die beiden Stadtplanvarianten basieren auf der Stadtplankarte Ruhrgebiet und werden über einen Kartendienst (WMTS) des Regionalverbands Ruhr (RVR) bereitgestellt.
+          Sie ermöglichen eine schnelle Orientierung anhand von Straßen, Gebäuden und Ortslagen. 
+          Die Luftbildkarte basiert auf den digitalen Orthophotos (DOP) des Landes NRW und wird über einen WMS-Dienst der Bezirksregierung Köln bereitgestellt.
+           Sie stellt eine anschauliche Grundlage dar, weshalb sie sich
             vor allem für die Darstellung räumlicher Zusammenhänge und Nutzungen eignet. Da die Hintergrundkartendienste immer wieder aktualisiert werden,
             kann es in Einzelfällen zu geringen Abweichungen zu der Datengrundlage des Simulationsmodells kommen, bis dieses ebenfalls
             mit den neuen Gebäuden/Objekten fortgeschrieben wird. Näheres zu den Geodaten, die

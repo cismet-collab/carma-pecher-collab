@@ -104,6 +104,28 @@ const Component = () => {
           </p>
 
           <p>
+          Die im AIS bereitgestellten Szenarien stellen unterschiedliche Starkregenintensitäten dar. 
+          Die Ergebnisse dienen dazu, eine mögliche Spannweite von Überflutungsereignissen abzuschätzen. 
+          Ein direkter Vergleich mit historischen Ereignissen ist nur eingeschränkt möglich.
+          Die Karten zeigen mögliche Überflutungssituationen auf Grundlage hydraulischer Modellberechnungen. 
+          Sie stellen keine Vorhersage zukünftiger Ereignisse oder Nachrechnungen historischer Ereignisse dar.
+          </p>    
+
+          <p>
+          Die im AIS dargestellten Ergebnisse basieren auf einer flächendeckenden Überregnung des gesamten Untersuchungsgebiets
+           mit definierten Starkregenereignissen. Tatsächliche Starkregen treten häufig kleinräumiger auf, bewegen sich über das 
+           Gebiet und weisen zeitlich sowie räumlich sehr unterschiedliche Intensitäten auf. Da Verlauf, Ausdehnung und Zugbahn 
+           von Starkregenereignissen sehr variabel und unsicher sind, wird im Rahmen der Modellierung eine gleichmäßige 
+           Überregnung des gesamten Einzugsgebiets angenommen. Dadurch werden mögliche Abfluss- und Überflutungssituationen unter 
+           vergleichbaren Randbedingungen dargestellt und ein eher kritischer Belastungszustand untersucht. 
+          </p>            
+
+          <p>
+          Abweichungen zu bereits vorhandenen kommunalen Starkregengefahrenkarten können auf unterschiedliche Datengrundlagen, 
+          Modellierungsansätze, Betrachtungsräume oder Bearbeitungszeitpunkte zurückzuführen sein.
+          </p>  
+
+          <p>
             Da nicht alle kleinräumigen Strukturen im Digitalen Geländemodell
             (DGM1), das vom Land NRW zur Verfügung gestellt und für die
             Simulationen verwendet wird, abgebildet werden können, bitten wir

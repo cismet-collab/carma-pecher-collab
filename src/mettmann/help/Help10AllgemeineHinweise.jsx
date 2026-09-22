@@ -33,6 +33,29 @@ const Component = () => {
             -annahmen zu berücksichtigen. Hinweise zur Aussagekraft der
             Ergebnisse werden nachfolgend beschrieben.
           </p>
+          <p>
+          Das Auskunfts- und Informationssystem (AIS) Starkregenvorsorge Kreis Mettmann unterstützt alle Akteur:innen dabei, mögliche Auswirkungen von Starkregenereignissen 
+          besser zu verstehen und lokale Gefährdungsschwerpunkte frühzeitig zu erkennen. Das AIS Starkregenvorsorge soll dazu beitragen, 
+          die Eigenvorsorge zu stärken, die Sensibilisierung für Starkregengefahren zu erhöhen und eine Grundlage für die Prüfung möglicher
+           Vorsorge- und Anpassungsmaßnahmen zu schaffen. 
+           Für die Bewertung einer konkreten Gefährdungssituation sowie die Planung geeigneter Maßnahmen ist stets eine 
+           vertiefte Betrachtung der örtlichen Verhältnisse erforderlich. Das AIS dient als Orientierungs- und Informationsgrundlage 
+           und soll dazu anregen, sich frühzeitig mit möglichen Starkregengefahren im eigenen Umfeld auseinanderzusetzen.
+          </p>
+          <p>
+            Die kreisweite Starkregengefahrenkarte im "AIS Starkregenvorsorge Kreis
+            Mettmann" stellt in zwei umschaltbaren Kartenansichten maximale
+            Wassertiefen bzw. maximale Fließgeschwindigkeiten im gesamten
+            Kreisgebiet, d. h. für alle zehn Kommunen des Kreises Mettmann,
+            dar, die im Verlauf von zwei simulierten Starkregenszenarien
+            berechnet wurden. Bei den Ergebnissen handelt es sich um eine
+            modelltechnische Untersuchung des Kreisgebiets mit dem Ziel, die
+            Realität möglichst gut abzubilden. Bei der Betrachtung und
+            Interpretation der Ergebnisse sind die Modellgrundlagen und
+            -annahmen zu berücksichtigen. Hinweise zur Aussagekraft der
+            Ergebnisse werden nachfolgend beschrieben.
+          </p>
+
 
           <p>
             Das Ergebnis der Simulation ist von der Dauer und Intensität des
@@ -69,7 +92,7 @@ const Component = () => {
           </p>
 
           <p>
-            Das Auskunfts- und Informationssystem (AIS) Starkregenvorsorge ist
+            Das AIS Starkregenvorsorge ist
             im Rahmen des DBU-Projektes KLAS in Bremen entwickelt und seitdem kontinuierlich 
             weiterentwickelt und ergänzt worden.
           </p>

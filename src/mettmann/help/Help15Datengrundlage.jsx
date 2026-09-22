@@ -97,11 +97,11 @@ const Component = () => {
             </li>
 
             <li>
-              Bergisch-Rheinischer Wasserverband: Flächennutzungs- und Gebäudedaten, Durchlass- und Verrohrungsdaten, Bauwerksinformationen, Angaben zu Brücken und Mauern
+              Bergisch-Rheinischer Wasserverband: Flächennutzungsdaten, Durchlass- und Verrohrungsdaten, Bauwerksinformationen, Angaben zu Brücken und Mauern
             </li>
 
-            <li>Kommunen: Unterschiedliche Datensätze zur Siedlungsentwässerung (Bauwerke und Kanalbestand), Durchlass- und Verrohrungsdaten, Informationen zu vergangenen 
-              Schadensereignissen und umgesetzten Maßnahmen, Lage und Informationen zu geplanten bzw. laufenden Bauvorhaben, Gebäudedaten sowie Mauern. Die Daten wurden je 
+            <li>Kommunen (nach Verfügbarkeit): Unterschiedliche Datensätze zur Siedlungsentwässerung (Bauwerke und Kanalbestand), Durchlass- und Verrohrungsdaten, Informationen zu vergangenen 
+              Schadensereignissen und umgesetzten Maßnahmen, Lage und Informationen zu geplanten bzw. kürzlich abgeschlossenen Bauvorhaben, weitergehende Gebäudedaten sowie Mauern. Die Daten wurden je 
               nach Verfügbarkeit von den Kommunen zur Modellbearbeitung bereitgestellt. Darüber hinaus erfolgte eine weitergehende Datenerfassung und Modellprüfung über eine Online-Karte.
             </li>
 
@@ -114,9 +114,72 @@ const Component = () => {
           </p>
           <ul>
             <li>
-              <strong>Stadtplan</strong>: Kartendienst (WMTS)
+              <strong>Stadtplan bunt </strong>: Kartendienst (WMTS)
               des Verbandsgebiets vom RVR.
-              Datengrundlage: <strong>Stadtplanwerk Ruhrgebiet (GrauBlau / Light). </strong> Dieser Dienst enthält
+              Datengrundlage: <strong>Stadtplanwerk Ruhrgebiet (Light). </strong> Dieser Dienst enthält
+              einen Stadtplan für alle 53 Städte und Gemeinden im Ruhrgebiet.
+              Nutzungsrechtshinweise: 
+              <a
+                target="_legal"
+                href="https://hilfe.geoportal.ruhr/spw2-dokumentation/index.html"
+              >
+                 {" Stadtplanwerk Ruhrgebiet 2.0 "}
+              </a>
+               ©
+               <a
+                target="_legal"
+                href="https://www.rvr.ruhr/"
+              >
+                 {" Regionalverband Ruhr "}
+              </a> 
+               und Kooperationspartner (
+                <a
+                target="_legal"
+                href="https://www.govdata.de/dl-de/by-2-0"
+              >
+                 {"Datenlizenz Deutschland - Zero - Version 2.0"}
+              </a> 
+                ), Datengrundlagen: 
+                <a
+                target="_legal"
+                href="https://www.bezreg-koeln.nrw.de/brk_internet/geobasis/liegenschaftskataster/alkis/index.html"
+              >
+                 {" ALKIS"}
+              </a>               
+                , 
+                <a
+                target="_legal"
+                href="https://www.bezreg-koeln.nrw.de/brk_internet/geobasis/landschaftsmodelle/index.html"
+              >
+                 {" ATKIS "}
+              </a>                 
+               - Land NRW/Katasterämter (
+                <a
+                target="_legal"
+                href="https://www.govdata.de/dl-de/by-2-0"
+              >
+                 {"Datenlizenz Deutschland - Zero - Version 2.0"}
+              </a> 
+              ) und © 
+              <a
+                target="_legal"
+                href="https://www.openstreetmap.org/copyright"
+              >
+                 {" OpenStreetMap "}
+              </a> 
+               - Mitwirkende (License: 
+                <a
+                target="_legal"
+                href="https://opendatacommons.org/licenses/odbl/"
+              >
+                 {" Open Database License"}
+              </a> 
+               ) {" "}
+            </li>
+            <li>
+            <strong>Stadtplan grau </strong>: Kartendienst (WMTS)
+              des Verbandsgebiets vom RVR.
+              Datengrundlage: <strong>Stadtplanwerk Ruhrgebiet (GrauBlau). </strong> Dieser Dienst enthält
               einen Stadtplan für alle 53 Städte und Gemeinden im Ruhrgebiet.
               Nutzungsrechtshinweise: 
               <a
