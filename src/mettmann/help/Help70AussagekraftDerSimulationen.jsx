@@ -141,7 +141,7 @@ const Component = () => {
             ! Bedenken Sie, dass es sein kann, dass ein neues Gebäude in den
             Simulationen nicht berücksichtigt wurde, weil es zum Zeitpunkt der
             Datenbereitstellung für die Simulationsberechnungen noch nicht im
-            Liegenschaftskataster nachgewiesen war oder ggf. ein Gebäude
+            Liegenschaftskataster vorhanden war oder ggf. ein Gebäude
             inzwischen abgerissen wurde.
           </p>
         </div>

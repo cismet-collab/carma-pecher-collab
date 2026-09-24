@@ -59,8 +59,7 @@ const Component = ({ defaultContextValues = {}, email }) => {
             wichtiger Gewässerdurchlass o. Ä. übersehen?
           </p>
           <p>
-            In der nächsten Neuberechnung der Simulationen werden diese
-            Anpassungen dann berücksichtigt. Eingegangene Hinweise aus der Bevölkerung können wertvolle Informationen liefern. 
+            Eingegangene Hinweise aus der Bevölkerung können wertvolle Informationen liefern. 
             Einzelne Rückmeldungen führen jedoch nicht unmittelbar zu einer Aktualisierung. 
             Die Rückmeldungen werden im Rahmen zukünftiger Fortschreibungen geprüft und bewertet. Bitte beachten Sie in diesem
             Zusammenhang die Versionsangabe der Simulationsergebnisse im
