@@ -8,7 +8,7 @@ const Comp = ({
   hintergrundkartenText = "Stadtplan © RVR | DOP © Bezirksregierung Köln",
   taglineModelling = (
     <div>
-      <b>Modellierung und AIS Starkregenvorsorge</b> (Version 1.1 | 07/2025):{" "}
+      <b>Modellierung und AIS Starkregenvorsorge</b> (Version 1.0 | 01/2026):{" "}
       <a target="_wsw" href="https://cismet.de/">
         cismet GmbH
       </a>{" "}
