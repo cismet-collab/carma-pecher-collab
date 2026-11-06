@@ -16,10 +16,12 @@ const Component = ({ email }) => {
       sectionContent={
         <div>
           <p>
-            Für telefonische Auskünfte zum Umgang mit dem Auskunfts- und
-            Informationssystem Starkregen (AIS) stehen Ihnen die
-            Mitarbeiterinnen und Mitarbeiter der Kreisverwaltung Mettmann zur
-            Verfügung.
+          Für telefonische Auskünfte zum Umgang mit dem Auskunfts- und Informationssystem Starkregen (AIS) 
+          stehen Ihnen die Mitarbeiterinnen und Mitarbeiter der Kreisverwaltung Mettmann zur Verfügung.
+          Bezüglich weitergehender Informationen zum Thema Starkregen können Sie gerne die Mitarbeiter/-innen 
+          der unteren Wasserbehörde des Kreises Mettmann bzw. der jeweiligen Abwasserbetriebe, Stadtentwässerungen 
+          bzw. Grundstücksentwässerungen der kreisangehörigen Städte ansprechen.
+ 
           </p>
           <p>
           <a
@@ -28,8 +30,8 @@ const Component = ({ email }) => {
               >
                  {"Weitere Informationen "}
               </a>                      
-            zum Thema „Schutz vor Starkregen“ finden Sie
-            auf der Homepage des Kreises Mettmann.{" "}           
+              zum Thema „Schutz vor Starkregen“ sowie unseren Leitfaden zur Starkregenvorsorge
+               für Hauseigentümer, Bauwillige und Architekten finden Sie auf der Homepage des Kreises Mettmann.{" "}           
           </p>
 
           <p style={{ display: "flex" }}>
